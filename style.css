@@ -168,11 +168,8 @@ footer a:hover {
     display: flex;
 }
 
-
-
 .spider {
     width: 45%;
-    margin: 5px;
     display: flex;
 }
 
@@ -193,3 +190,9 @@ iframe {
     
     margin-bottom: 3%;
 }
+
+.perso {
+    width: 100%;
+    display: flex;
+}
+
