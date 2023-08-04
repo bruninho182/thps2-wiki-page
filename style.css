@@ -4,11 +4,11 @@
         --cor2: #898D8F;
         --cor3: #740416;
         --cor4: #626874;
-        --cor5: #063d1e;
+        --cor5: #eeba0f75;
     
-        --font-padrao: Arial, Verdana, Helvetica , sans-serif;
+        --font-padrao:'Tektur', cursive;
         --font-destaque:'Bebas Neue', cursive;
-        --font-tony: 'Android' , cursive;
+        --font-tony: 'Tektur', cursive , bold;
 }
 
 * {
@@ -17,7 +17,7 @@
 }   
 
 body {
-    background-color:var(--cor0);
+    background-color:var(--cor4);
 }
 
 nav {
@@ -38,9 +38,11 @@ header > h1 {
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.226);
+    font-family: 'Tektur', cursive;
 }
 
 header > p {
+    font-family: 'Tektur', cursive;
     color: white;
     font-size: 1.2em;
     max-width: 500px;
@@ -52,12 +54,15 @@ header > p {
 }
 
 nav {
+    font-family: 'Tektur', cursive;
     background-color: var(--cor1);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(223, 10, 10, 0.349);
+    text-align: center;
 }
 
 nav > a {
+    font-family: 'Tektur', cursive;
     color: var(--cor3);
     padding: 10px;
     border-radius: 5px;
@@ -85,21 +90,22 @@ main {
 
 main h1 {
     color: var(--cor3);
-    font-family: var(--font-android);
+    font-family: var(--font-tony);
     font-weight: normal;
     font-size: 1.8em;
 }
 
 main h2 {
-    font-family: var(--font-android);
+    font-family: var(--font-tony);
     font-weight: normal;
-    color: var(--cor1);
+    color: var(--cor3);
     font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor3), transparent);
+    background-image: linear-gradient(to right, var(--cor5), transparent);
     text-indent: 8px;
 }
 
 main p {
+    font-family: var(--font-tony);
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
@@ -134,6 +140,7 @@ main img {
 }
 
 footer {
+    font-family: var(--font-tony);
     background-color: var(--cor1);
     color: white;
     text-align: center;
@@ -150,4 +157,45 @@ footer > a {
 footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
+}
+
+
+
+
+
+.personagens {
+    width: 60%;
+    margin: 15px;
+    display: flex;
+}
+
+.spider {
+    width: 45%;
+    margin: 15px;
+    display: flex;
+}
+
+.para {
+    margin: 10px;
+    text-align: center;
+}
+
+.music {
+    margin-top: 50px;
+    font-style: var(--font-tony);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.track {
+    margin: 10px 0px;
+}
+
+iframe {
+    margin-left: 5%;
+}
+
+.youtube {
+    
+    margin-bottom: 3%;
 }
