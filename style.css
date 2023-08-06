@@ -164,8 +164,9 @@ footer a:hover {
 
 
 .personagens {
-    width: 97%;
+    width: 90%;
     display: flex;
+
 }
 
 .spider {
@@ -190,3 +191,10 @@ iframe {
     margin-bottom: 3%;
 }
 
+/*------------------------------------*/
+
+.profile {
+    width: 330px;
+    box-shadow: var(--cor1) 0px 30px 60px -12px inset, var(--cor3) 0px 18px 36px -18px inset;
+
+}
